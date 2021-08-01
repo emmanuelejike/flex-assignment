@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(185, 181, 181, 0.322);
+    color: rgb(37, 36, 36);
+    font-size: 14px;
+}
+
+.element-container{
+    width: 80%;
+    padding: 40px 20px;
+    margin: auto;
+    background: white;
+}
+
+.pricing{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.first-para{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgb(90, 89, 89);
+}
+
+.pricing-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 30px;
+}
+
+.pricing-btn-1{
+    padding: 20px;
+    font-weight: bold;
+    background-color: rgb(221, 215, 215);
+    width: 150px;
+    text-align: center;
+    
+}
+
+.btn-2{
+    background-color: rgb(38, 207, 108);
+    color: white;
+}
+
+.sub-pricing{
+    display: flex;
+    margin-top: 50px;
+    
+    
+}
+
+.sub-pricing-1{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 30px 2px rgb(219, 218, 218);
+    width: 25%;
+    height: 80%;
+    
+}
+
+.sub-pricing-1-2-container{
+    height: 100%;
+}
+
+.sub-pricing-2{
+    padding: 10px 0;
+    border: 1px solid green;
+    
+}
+
+.check li{
+    list-style: none;
+    padding: 4px 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(88, 86, 86, 0.842);
+    position: relative;
+    
+}
+
+.recommended-btn{
+    background: rgb(224, 206, 43);
+    border: none;
+    outline: none;
+    padding: 5px 12px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.sign-in-btn{
+    border: 1px solid black;
+    padding: 6px 10px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+.sign-in-btn-2{
+    color: white;
+    padding: 8px 10px;
+     border: none;
+    background: rgb(38, 208, 108);
+}
+
+sub{
+    font-size: 14px;
+    color: gray;
+}
+
+h3{
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+
+h1{
+    margin: 20px 0px;
+}
+
+.check{
+    position: relative;
+}
+
+.img-img{
+    width: 18px;
+    position: absolute;
+    border-color: green;
+    left: 40;
+}
+
